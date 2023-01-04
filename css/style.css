@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    cursor: url('../img/mata_mosca.png') 30 30, auto;
+}
+
+body {
+    background: url('../img/bg.jpg') no-repeat fixed;
+    background-size: cover;
+    
+}
+.mosca{
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+.mosca1{
+    width: 70px;
+    height: 70px;
+    position: relative;
+}
+.mosca2{
+    width: 90px;
+    height: 90px;
+    position: relative;
+}
+.ladoPadrao {
+    transform: scaleX(1);
+}
+.ladoModify {
+    transform: scaleX(-1);
+}
+.painel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    opacity: 0.7;
+    padding: 10px;
+    width: 190px;
+    font-weight: bold;;
+}
+.levels {
+    width: 200px;
+}
+.levels1 {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
